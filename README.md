@@ -1,3 +1,53 @@
+Polybooks
+========
+
+Small set of cookbooks to build lxc containers that contain a bunch of development tools/software/daemons/databases etc.
+
+This is for my polyglot programming project.
+
+Quick usage:
+
+     curl -L https://www.opscode.com/chef/install.sh | bash
+     cd /data/
+     git clone https://github.com/adarqui/polybooks
+     chef-solo -c polybooks/examples/polyp/solo.rb -j polybooks/examples/polyp/node.json
+
+^ That will build an lxc container named polyp, reachable at 10.0.3.10. Once chef-solo completes, you can access it by:
+     ssh -i /opt/hw-lxc-config/id_rsa root@10.0.3.10
+
+Development languages that will be installed
+========
+
++ haskell
++ ocaml
++ erlang
++ go
++ java
++ gfortran
++ rust
++ node
++ lua
++ c
++ c++
++ c#
++ f#
++ ada
++ prolog
++ scala
++ clojure
++ typescript
++ coffeescript
++ perl
++ php
+- ruby
++ python
++ zsh
++ csh
++ bash
++ php_hack
++ smalltalk
++ groovy
+
 Overview
 ========
 
