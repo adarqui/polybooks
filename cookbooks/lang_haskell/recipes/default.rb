@@ -13,7 +13,7 @@ apt_repository 'haskell-apt' do
  uri 'http://ppa.launchpad.net/hvr/ghc/ubuntu'
  arch 'amd64'
  distribution 'trusty'
- components ['main', 'stable']
+ components ['main']
  keyserver 'keyserver.ubuntu.com'
  key 'F6F88286'
 end

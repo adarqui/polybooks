@@ -11,7 +11,7 @@ apt_repository 'java-apt' do
  uri 'http://ppa.launchpad.net/webupd8team/java/ubuntu/'
  arch 'amd64'
  distribution 'trusty'
- components ['main', 'stable']
+ components ['main']
  keyserver 'keyserver.ubuntu.com'
  key 'EEA14886'
 end

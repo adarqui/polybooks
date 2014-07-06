@@ -11,7 +11,7 @@ include_recipe 'apt'
 
 apt_repository 'hhvm' do
  uri 'http://dl.hhvm.com/ubuntu'
- components ['main', 'stable' ]
+ components ['main' ]
  distribution 'trusty'
  key 'http://dl.hhvm.com/conf/hhvm.gpg.key'
 end
