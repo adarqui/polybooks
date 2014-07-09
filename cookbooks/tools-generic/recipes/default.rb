@@ -7,4 +7,4 @@
 # All rights reserved - Do Not Redistribute
 #
 
-%w{locate tmux screen telnet traceroute git cvs mercurial}.each do |v| package v end
+%w{locate tmux screen telnet traceroute git cvs mercurial devscripts debhelper}.each do |v| package v end

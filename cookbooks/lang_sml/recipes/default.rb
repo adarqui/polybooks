@@ -8,3 +8,5 @@
 #
 
 package 'smlnj'
+
+execute 'apt-get build-dep smlnj'
