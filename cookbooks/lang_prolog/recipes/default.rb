@@ -7,4 +7,4 @@
 # All rights reserved - Do Not Redistribute
 #
 
-%w{gprolog gprolog-doc}.each do |v| package v end
+%w{gprolog gprolog-doc swi-prolog}.each do |v| package v end
