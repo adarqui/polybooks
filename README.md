@@ -15,10 +15,18 @@ Quick usage:
 ^ That will build an lxc container named polyp, reachable at 10.0.3.10. Once chef-solo completes, you can access it by:
      ssh -i /opt/hw-lxc-config/id_rsa root@10.0.3.10
 
+
+To build on an existing container:
+     chef-solo -c polybooks/examples/polyp/solo.rb -j polybooks/examples/polyp/programming.json
+
+
+
 Development languages that will be installed
 ========
 
 + haskell
++ agda
++ coq
 + ocaml
 + erlang
 + go
@@ -36,7 +44,8 @@ Development languages that will be installed
 + scala
 + clojure
 + typescript
-+ coffeescript
++ coffee-script
++ typed coffee-script
 + perl
 + php
 - ruby

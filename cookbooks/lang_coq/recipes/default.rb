@@ -7,4 +7,4 @@
 # All rights reserved - Do Not Redistribute
 #
 
-package 'coq'
+%w{coq coq-theories}.each do |w| package w end
