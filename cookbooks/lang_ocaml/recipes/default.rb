@@ -7,4 +7,4 @@
 # All rights reserved - Do Not Redistribute
 #
 
-%w{ocaml ocaml-source ocaml-tools omake opam}.each do |v| package v end
+%w{ocaml ocaml-source ocaml-tools omake opam oasis ocaml-findlib}.each do |v| package v end
