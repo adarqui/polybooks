@@ -8,3 +8,5 @@
 #
 
 %w{gcc valgrind gdb}.each do |v| package v end
+
+%w{libcunit1 libcunit1-dev}.each do |v| package v end

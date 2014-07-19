@@ -19,6 +19,10 @@ Quick usage:
 To build on an existing container:
      chef-solo -c polybooks/examples/polyp/solo.rb -j polybooks/examples/polyp/programming.json
 
+or
+     cd /data/polybooks
+     ./bin/inside
+
 
 
 Development languages that will be installed
