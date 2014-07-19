@@ -13,4 +13,4 @@ execute "ln -s /usr/bin/nodejs /usr/bin/node" do
  not_if { ::File.exists? '/usr/bin/node' }
 end
 
-execute "npm install -g typescript coffee-script typed-coffee-script"
+execute "npm install -g typescript coffee-script typed-coffee-script jasmine-node vows"
